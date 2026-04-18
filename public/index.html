@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card1">
+            <input type="text" id="cityName" class="searchCity" placeholder="Search city....">
+            <div class="imgPic">
+                <img id="weatherImg" src="" alt="" class="weatherImg">
+            </div>
+            <div id="weatherTemp"></div>
+            <div class="cityNameAndDay">
+                <p id="city"></p>
+                <p id="day"></p>
+            </div>
+
+            <div class="showData">
+                <div class="infoData">
+                    <img id="minImg" src="" alt="" class="MaxMinIcon">
+                    <p id="min"></p>
+                </div>
+
+                <div class="infoData">
+                    <img id="maxImg" src="" alt="" class="MaxMinIcon">
+                    <p id="max"></p>
+                </div>
+            </div>
+
+            <div class="windAndHumBox">
+                <div class="infobox">
+                    <img id="humImg" src="" alt="" class="infoIcon">
+                    <p id="humValue"></p>
+                    <p id="humLabel"></p>
+                </div>
+                <div class="infobox">
+                    <img id="windImg" src="" alt="" class="infoIcon">
+                    <p id="windValue"></p>
+                    <p id="windLabel"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card2">
+            <div class="nav">
+                <ul>
+                    <li class="todayline">Today</li>
+                    <li class="underline">Week</li>
+                </ul>
+            </div>
+            <div id="hero"></div>
+
+            <div class="overview">
+                <div id="aqi" class="overviewBox">
+                    <p id="aqiData"></p>
+                    <p id="aqiLevel"></p>
+                </div>
+                <div id="uv" class="overviewBox">
+                    <p id="uvData"></p>
+                    <p id="uvLevel"></p>
+                </div>
+                <div id="pressure" class="overviewBox">
+                    <p id="preData"></p>
+                    <p id="preLevel"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

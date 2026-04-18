@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+
+}
+
+.card1 {
+    margin-top: 20px;
+    margin-left: 20px;
+     background-color: #191B1F;
+    height: 650px;
+    border-radius: 15px;
+    color: white;
+ }
+
+.weatherImg {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#weatherTemp{
+    font-size: 50px;
+    display: flex;
+    justify-content: center; /* แนวนอน */
+    align-items: center;     /* แนวตั้ง */
+}
+
+.searchCity {
+    margin: 10px;
+    border-radius: 15px;
+    height: 40px;
+    width: 230px;
+    padding: 20px;
+}
+
+.cityNameAndDay {
+  
+    display: flex;
+    justify-content: center; /* แนวนอน */
+    align-items: center;     /* แนวตั้ง */
+    gap: 100px;               /* เว้นระยะ Songkhla กับ Friday */
+}
+
+.card2 {
+    background-color: #191B1F;
+    color: white;
+    border: 1px solid black;
+    height: 650px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 20px;
+ }
+
+
+.cityNameAndDay{
+    display: flex;
+    gap: 20px;
+}
+
+
+.windAndHumBox{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.infoIcon {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.infoData {
+    display: flex;
+}
+
+.showData{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.windAndHumBox{
+    margin: 20px;
+}
+.MaxMinIcon{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.infobox{
+    margin: 10px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.todayline{
+    color: gray;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.d1 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.d1 {
+    background: rgba(255, 255, 255, 0.1);
+
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.d1 p{
+    padding: 10px;
+    text-align: center;
+}
+
+.overviewBox{
+    background: rgba(255, 255, 255, 0.1);
+
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+
+}
+.overviewBox p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+.overview {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
